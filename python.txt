@@ -1,0 +1,40 @@
+Python Tutorial
+
+String
+    .upper(): to change the words to upper case
+    .lower(): to change the words to lower case
+    .capitalize(): to capitalize the first letter of a sentence or a word
+    .count(): to count a specific caracter
+    .format: used to shorten a long code specially for concatination
+        eg: output = f'Hello, {first_name} {last_name}'
+            print(output)
+    .replace(old,new): to replace sth in String
+    len(string): to find the length of the string
+    .sort(): to sort string alphabetically
+    sorted(string): sort the string in alphabetical order
+    .split(): split a string using a specific character and store it in a List
+    eval(string): to change string to object or other types of things
+
+Array
+    To creat array first import array package
+    Eg: form array import *
+        array_num = array('i',[1,2,3])
+    .reverse(): used to reverse an array
+    .itemsize: to know the length in bytes of one array item
+    .insert(p,item): same as list
+    .pop(index): to remove an item using the index of the element
+    .remove(item): to remove an item
+    .tolist(): to change an array to list
+    
+List
+    .append(sth): To add new element to the List
+    .insert(position,item): to insert element in particular position
+    .sort(): sort elements
+    .index(element): to find the index of an element in a list
+
+Dictionaries
+    eg: person = {'first': 'libeamlak'}
+    to add element: person['last'] = 'Bekele'
+    to get specific element: print(person['first'])
+    
+    
